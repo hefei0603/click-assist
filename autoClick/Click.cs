@@ -5,9 +5,8 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading;
 using System.Windows.Forms;
-using static autoClick.WinApi;
 
-namespace autoClick
+namespace autoClick : WinApi
 {
     class Click
     {
